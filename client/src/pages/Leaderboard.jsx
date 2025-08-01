@@ -94,9 +94,9 @@ const Leaderboard = () => {
                       <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
                         <div
                           className={`h-full rounded-full ${index === 0 ? "bg-gradient-to-r from-yellow-400 to-yellow-500" :
-                              index === 1 ? "bg-gradient-to-r from-gray-300 to-gray-400" :
-                                index === 2 ? "bg-gradient-to-r from-amber-600 to-amber-700" :
-                                  "bg-gradient-to-r from-blue-500 to-teal-500"
+                            index === 1 ? "bg-gradient-to-r from-gray-300 to-gray-400" :
+                              index === 2 ? "bg-gradient-to-r from-amber-600 to-amber-700" :
+                                "bg-gradient-to-r from-blue-500 to-teal-500"
                             }`}
                           style={{ width: `${intern.progress}%` }}
                         ></div>
