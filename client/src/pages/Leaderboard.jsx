@@ -7,7 +7,7 @@ const Leaderboard = () => {
   const navigate = useNavigate(); // Initialize navigate function
 
   useEffect(() => {
-    axios.get("http://localhost:3001/api/leaderboard")
+    axios.get("https://fundraising-intern-portal-dmfh.onrender.com/api/leaderboard")
       .then((res) => setTopInterns(res.data))
       .catch((err) => console.error("Error fetching leaderboard data:", err));
   }, []);
